@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Case Study - Bootstrap</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;800&family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section id="hero">
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="left-nav navbar-brand" href="#">Ernesto Poleo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <div class="d-flex jumbotron jumbotron-fluid">
+      <div class=" container hero-text">
+        <h1 class="display-4">CANADA COUNCIL FOR THE ARTS</span></h1>
+        <p class="lead">Responsive redesign of the website of the Canada Council for the arts, improving the navigation and the aesthetics for mobile and desktop.</p>
+      </div>
+      <div class="hero-img-div">
+        <img src="images/hero-img.png" class="hero-img" alt="" style="
+    width: 550px;">
+      </div>
+
+    </div>
+  </section>
+  <div class="overview">
+
+    <h3>Overview</h3>
+    <p>This project is about a responsive redesign of a government agency, the Canada Council for the Arts, which focuses on promoting the arts, supporting artists and organizations around Canada.</p>
+
+    <h3>Team & Schedule</h3>
+    <p>I team with two other designers to complete this project to complete the user research phase and receive some later feedback. The process took three weeks to finish.</p>
+    <h3>The Problem</h3>
+    <p>The website has confusing navigation for users, making it difficult to find essential features such as grants and financing programs. Also, in addition to being an organization created by artists, the visuals display unattractive and
+      straightforward images.</p>
+    <h3>The solution</h3>
+    <p>Design new navigation, making it easier for users to take advantage of the options offered by the organization, both through the navigation bar and on the main page, putting relevant content. Also, using brighter colors, respecting
+      accessibility
+      values such as contrast and heuristics.</p>
+  </div>
+  <!-- USER RESEARCH -->
+  <section id="userResearch">
+    <h2 class="section-header">User Research</h2>
+    <h3>GETTING TO KNOW THE USERS</h3>
+    <p>We start by making a proto-persona or a possible average user of the page. We investigated what the organization offers; we deduced that artists and organizations would be the main interested parties, especially to opt for subsidies.</p>
+    <h3>WEB ANALYSIS</h3>
+    <p>The second step was conducting a heuristic evaluation, analyzing the homepage based on appearance, content, navigation, and functionality. This process gave us a clue about the points to focus on in the posterior usability tests.</p>
+    <img src="images/webAnalysis.png" alt="" class="">
+    <p>Conduct a usability test was the next step to check how the users interacted with the website. We asked to complete different tasks, like finding the funding options, the online application in the login portal, start a grant application, and
+      find the contact information.</p>
+    <img src="images/usability-results.png" alt="" class="">
+  </section>
+
+  <!-- DEFINITION -->
+  <section id="definition">
+    <h2 class="section-header">Definition & Ideation</h2>
+    <h3>USABILITY & HEURISTIC ANOTATIONS</h3>
+    <p>Based on the user's answers, we annotate the usability and heuristic issues of five pages of the organization to guide what we need to improve most.
+      To do that, we started a mood board with some competitor pages, UI elements such as icons, buttons, navigation, and some colors. </p>
+    <img src="images/heuristics-anotations.png" alt="" class="">
+    <h3>NAVIGATION</h3>
+    <p>After this, we focus on navigation. The page had bugs in its navigation, the most obvious being the one found in the "Portal." users had no way of knowing what it meant, and once they clicked, they had no way of returning to the main page.
+      Another problem we found was that grant options were not easy to come by and understand, which often left users frustrated.</p>
+    <p>To start looking for solutions, we repeat the redline but focusing this time on navigation, including footer, primary and secondary navigation. After this, we carried out three usability tests focused merely on navigation and how users saw
+      this process. </p>
+    <img src="images/navigation-anotations.png" alt="" class="">
+    <h3>CARD SORTING & SITEMAP</h3>
+    <p>After I made a classification of cards for three users, the main navigation elements went from six to five. Some parts were reorganized, and others were renamed to make the navigation more precise and intuitive. With the results, we put
+      together the new sitemap.</p>
+    <img src="images/card-sorting.png" alt="" class="">
+  </section>
+
+  <!-- PROTOTYPING -->
+  <section id="prototyping">
+    <h2 class="section-header">Prototyping</h2>
+    <h3>NAVIGATION</h3>
+    <p>I started prototyping what the new header and footer navigation would look like for mobile and desktop. I began to create a clickable prototype of the home page, mainly focused on navigation.
+      To test it, first run a five-second test, where users viewed the image for five seconds and then answered questions such as the unique elements on the page, things that would change, etc.
+    </p>
+    <div class="img-proto-conteiner">
+      <img src="images/nav-lowfi.png" class="nav-lowfi" alt="">
+      <img src="images/footer-lowfi.png" class="foot-lowfi" alt="">
+    </div>
+    <h3>STYLE TILE</h3>
+    <p>To start including the aesthetic elements, create a style tile, where I began to capture colors, fonts, icons, etc., for reference.</p>
+    <img src="images/style-tile.png" alt="" class="style-tile">
+    <h3>HIGH FIDELITY PROTOTYPES</h3>
+    <p>Taking the design to a complete version, move the style guide elements to the home page, making a clickable hi-fi prototype. I performed at least four usability tests on this prototype, iterating the final result multiple times.</p>
+    <div class="homepage-imgs-conteiner">
+      <img src="images/homepage-lowf.png" style="width:585px; height:1098;" alt="">
+      <img src="images/homepage-h.png" style="width:526px;" alt="">
+    </div>
+  </section>
+  <section id="conclusion">
+    <h2 class="section-header">Conclusion</h2>
+    <div class="conclusion-content">
+      <p>To maintain consistency throughout the project, we designed the style guide for mobile and desktop, thus facilitating the work when making new pages and serving as a guide for future developers.
+        In this project, the focus was mainly on heuristics, usability, and navigation. It was challenging as government agencies are very strict about how they do things, but being able to change it by trying to keep the essence was a fun challenge.
+        It is essential to spend time on the research part, as it can save a lot of time later, and consistently seek to corroborate your decisions through constant tests.</p>
+<img src="images/Mobile-Style-Guide.png" alt="">
+    </div>
+  </section>
+  <hr class="division">
+  <footer id="footer">
+
+    <div class="connect">
+      <h2>LET'S CONNECT!</h2>
+      <p>If you want us to work together or have a coffee, send me an <b>email</b> or text me on <bold>LinkedIn!</bold>
+      </p>
+    </div>
+
+    <div class="social-icons">
+      <ul>
+        <img src="images/linkedin.svg" class="social-logo" alt="">
+        <img src="images/mail.svg" class="social-logo" alt="">
+        <img src="images/instagram.svg" class="social-logo" alt="">
+        <img src="images/dribbble.svg" class="social-logo" alt="">
+      </ul>
+    </div>
+
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

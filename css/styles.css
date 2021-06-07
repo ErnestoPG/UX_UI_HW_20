@@ -1,0 +1,162 @@
+body {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1{
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 40px;
+}
+
+p{
+  font-size: 18px;
+  line-height: 27px;
+}
+
+h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 600;
+
+}
+.section-header{
+  padding: 36px auto 36px;
+  background-color: #FFDCDC;
+  margin-top: 36px;
+  margin-bottom:36px;
+}
+
+h3{
+font-size: 24px;
+font-weight: 700;
+line-height: 30px;
+}
+
+
+.bg-light{
+  background-color: white !important;
+}
+
+.jumbotron{
+  background-color: white;
+}
+
+#userResearch {
+  display: flex;
+  flex-direction: column;
+}
+
+.section-header {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#userResearch img {
+  width: 907px;
+  height: auto;
+  margin: 20px auto 40px;
+}
+
+#definition {
+  display: flex;
+  flex-direction: column;
+}
+
+#definition img {
+  width: 907px;
+  height: auto;
+  margin: 20px auto 40px;
+}
+
+.img-proto-conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-lowfi {
+  width: 543px;
+  height: 465px;
+}
+
+.foot-lowfi {
+  width: 562px;
+  height: 153px;
+}
+
+#prototyping {
+  display: flex;
+  flex-direction: column;
+}
+
+#prototyping img {
+  width: 879px;
+  height: 629;
+  margin: 20px auto 40px;
+}
+
+.homepage-imgs-conteiner {
+  display: flex;
+  flex-direction: row;
+}
+
+.homepage-imgs-conteiner img {
+  padding: 16px;
+}
+
+.conclusion-content{
+  display: flex;
+  flex-direction: row;
+}
+
+#conclusion img{
+  width: 516px;
+  height: auto;
+  padding: 30px;
+}
+
+/* FOOTER */
+#footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr  1fr 1fr;
+  grid-template-areas:
+  "connect connect social-icons social-icons"
+  ;
+}
+
+.connect{
+  grid-area: connect;
+}
+.connect h2{
+  font-size: 48px;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 400;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  margin: 0;
+
+}
+
+.social-icons{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  grid-area: social-icons;
+}
+
+.social-icons img{
+  height: auto;
+  padding-left: 16px;
+  min-width: 32px;
+}
+.division{
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
